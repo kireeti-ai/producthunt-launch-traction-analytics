@@ -1,0 +1,142 @@
+{
+  "top_features_full": [
+    {
+      "feature": "operator_id",
+      "mean_abs_shap": 0.07117812901688819
+    },
+    {
+      "feature": "town_freq",
+      "mean_abs_shap": 0.05900098578021862
+    },
+    {
+      "feature": "max_power_kw",
+      "mean_abs_shap": 0.0522906300887927
+    },
+    {
+      "feature": "primary_connection_type_id",
+      "mean_abs_shap": 0.049627397642848126
+    },
+    {
+      "feature": "usage_type_title_enc",
+      "mean_abs_shap": 0.0458549002312815
+    },
+    {
+      "feature": "operator_title_enc",
+      "mean_abs_shap": 0.044343755715223296
+    },
+    {
+      "feature": "state_or_province_enc",
+      "mean_abs_shap": 0.03736712219577598
+    },
+    {
+      "feature": "max_voltage",
+      "mean_abs_shap": 0.03056643981711473
+    },
+    {
+      "feature": "number_of_points",
+      "mean_abs_shap": 0.024431175004899008
+    },
+    {
+      "feature": "usage_type_id",
+      "mean_abs_shap": 0.024373396904743216
+    },
+    {
+      "feature": "n_connections",
+      "mean_abs_shap": 0.01792291097083852
+    },
+    {
+      "feature": "max_amps",
+      "mean_abs_shap": 0.01633441485863776
+    },
+    {
+      "feature": "primary_current_type_id",
+      "mean_abs_shap": 0.013661993345912043
+    },
+    {
+      "feature": "data_provider_id",
+      "mean_abs_shap": 0.013617204417051002
+    },
+    {
+      "feature": "n_distinct_connection_types",
+      "mean_abs_shap": 0.011367808287550516
+    },
+    {
+      "feature": "has_fast_charger",
+      "mean_abs_shap": 0.006099626035449246
+    },
+    {
+      "feature": "has_dc_fast",
+      "mean_abs_shap": 0.0030141430955213564
+    }
+  ],
+  "top_features_no_m1": [
+    {
+      "feature": "town_freq",
+      "mean_abs_shap": 0.07986756735789649
+    },
+    {
+      "feature": "operator_id",
+      "mean_abs_shap": 0.0665007582075914
+    },
+    {
+      "feature": "operator_title_enc",
+      "mean_abs_shap": 0.04809311989235572
+    },
+    {
+      "feature": "state_or_province_enc",
+      "mean_abs_shap": 0.047153979040776124
+    },
+    {
+      "feature": "number_of_points",
+      "mean_abs_shap": 0.03627521565998691
+    },
+    {
+      "feature": "max_power_kw",
+      "mean_abs_shap": 0.035918517935962554
+    },
+    {
+      "feature": "max_voltage",
+      "mean_abs_shap": 0.03379133477826458
+    },
+    {
+      "feature": "data_provider_id",
+      "mean_abs_shap": 0.028440936076037066
+    },
+    {
+      "feature": "n_connections",
+      "mean_abs_shap": 0.028403845892675018
+    },
+    {
+      "feature": "primary_connection_type_id",
+      "mean_abs_shap": 0.021237634319657413
+    },
+    {
+      "feature": "max_amps",
+      "mean_abs_shap": 0.019159156467013265
+    },
+    {
+      "feature": "usage_type_title_enc",
+      "mean_abs_shap": 0.0154939503199621
+    },
+    {
+      "feature": "n_distinct_connection_types",
+      "mean_abs_shap": 0.015461746253693141
+    },
+    {
+      "feature": "usage_type_id",
+      "mean_abs_shap": 0.011685413229884697
+    },
+    {
+      "feature": "primary_current_type_id",
+      "mean_abs_shap": 0.011634837393384573
+    },
+    {
+      "feature": "has_fast_charger",
+      "mean_abs_shap": 0.005308424567479916
+    },
+    {
+      "feature": "has_dc_fast",
+      "mean_abs_shap": 0.004909073839640737
+    }
+  ]
+}
