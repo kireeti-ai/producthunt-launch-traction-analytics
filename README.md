@@ -31,3 +31,23 @@ Rationale for each exclusion/grouping decision is documented in `notebooks/01_ed
 5. **Business output** — model confidence exposed as a per-station **operational risk score** for maintenance prioritization (not presented as a calibrated probability unless calibration is explicitly validated)
 
 ## Repo structure
+data/               raw and processed datasets (gitignored if large)
+notebooks/          EDA, labeling, modeling, evaluation
+src/                extraction, preprocessing, training scripts
+reports/            final case study writeup, figures
+.env.example        template for API key config
+## Setup
+
+```bash
+pip install -r requirements.txt
+cp .env.example .env   # add your OCM API key
+python src/extract_data.py
+```
+
+## Status
+
+🚧 In progress — B.Tech final year Business Analytics case study.
+
+## Author
+
+Kireeti — B.Tech CSE, Amrita Vishwa Vidyapeetham
