@@ -1,0 +1,27 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache and files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Scraper browser user data and logs
+playwright_user_data/
+scraper.log
+
+# Raw API JSON datasets
+producthunt_data/
+
+# Intermediate enriched datasets (only keep final)
+producthunt_enriched.csv
+
+# Temporary debugging/screenshot files
+*.png
+*.html
+*.js
+*.txt
