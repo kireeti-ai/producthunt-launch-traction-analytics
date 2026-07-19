@@ -3,6 +3,9 @@ venv/
 .venv/
 env/
 
+# Environment secrets
+.env
+
 # Python cache and files
 __pycache__/
 *.pyc

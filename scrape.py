@@ -8,7 +8,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 # ===========================
 # CONFIGURATION
 # ===========================
-API_TOKEN = "apify_api_6Jz6dqIjnexic0hn5lLpf5oXKJo8HG45Khwk"
+API_TOKEN = os.environ.get("APIFY_API_TOKEN", "")
 ACTOR_ID = "BN0Ukz5f8YV2nviFf"
 START_DATE = "2026-07-17"
 DAYS = 60
