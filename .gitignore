@@ -1,3 +1,9 @@
+# OS metadata
+.DS_Store
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
 # Virtual environment
 venv/
 .venv/
@@ -20,11 +26,8 @@ scraper.log
 # Raw API JSON datasets
 producthunt_data/
 
-# Intermediate enriched datasets (only keep final)
-producthunt_enriched.csv
+# API-enriched datasets (ignore)
+producthunt_final_cleaned.csv
+producthunt_ml_ready.csv
 
-# Temporary debugging/screenshot files
-*.png
-*.html
-*.js
-*.txt
+
