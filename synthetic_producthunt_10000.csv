@@ -1,22 +1,22 @@
-rank,votesCount,commentsCount,launch_hour,weekday,month,is_featured,description_length,tagline_length,topic_count,maker_count,maker_total_followers,hunter_followers_count,media_count,has_video,self_launched,primary_topic
-3,10.0,96.0,6,1,5,True,73,45,3,1,0,21548.0,7,True,False,Open Source
-17,32.0,39.0,16,6,6,False,388,52,3,0,0,0.0,2,False,False,iOS
-9,88.0,6.0,7,3,6,True,500,56,3,4,28,2323.0,3,False,False,Productivity
-1,0.0,7.0,21,0,6,False,373,49,3,1,497,0.0,6,False,False,Design Tools
-1,117.0,6.0,8,0,5,True,85,38,3,1,516,2641.0,9,False,False,Productivity
-6,141.0,0.0,20,0,5,False,500,60,4,2,310,0.0,3,True,False,API
-6,54.0,0.0,13,0,5,True,476,60,3,1,0,905.0,4,False,False,API
-8,35.0,28.0,6,5,6,True,346,50,3,1,252,1071.0,2,True,False,Chrome Extensions
-9,0.0,0.0,10,5,6,True,500,31,3,7,458,6810.0,3,True,False,Social Media
-16,46.0,0.0,6,3,5,True,89,42,4,1,2725,1119.0,7,False,False,Productivity
-10,129.0,46.0,16,1,5,True,424,52,3,1,1189,94030.0,9,False,False,Productivity
-8,81.0,49.0,7,5,5,True,408,17,3,1,0,2203.0,4,True,False,Artificial Intelligence
-11,0.0,45.0,12,2,5,False,192,60,3,5,203,2348.0,8,True,False,Productivity
-1,258.0,0.0,7,0,1,True,387,27,3,1,350,2388.0,6,False,False,API
-18,66.0,10.0,17,4,5,True,370,31,1,2,378,2893.0,12,True,False,Health & Fitness
-12,1.0,24.0,4,5,5,False,464,53,5,1,427,2660.0,5,True,False,Customer Communication
-1,107.0,28.0,8,3,5,True,467,59,3,1,0,3972.0,7,False,False,Developer Tools
-1,94.0,0.0,19,6,6,True,434,50,3,1,0,2989.0,4,True,False,Health & Fitness
+    rank,votesCount,commentsCount,launch_hour,weekday,month,is_featured,description_length,tagline_length,topic_count,maker_count,maker_total_followers,hunter_followers_count,media_count,has_video,self_launched,primary_topic
+    3,10.0,96.0,6,1,5,True,73,45,3,1,0,21548.0,7,True,False,Open Source
+    17,32.0,39.0,16,6,6,False,388,52,3,0,0,0.0,2,False,False,iOS
+    9,88.0,6.0,7,3,6,True,500,56,3,4,28,2323.0,3,False,False,Productivity
+    1,0.0,7.0,21,0,6,False,373,49,3,1,497,0.0,6,False,False,Design Tools
+    1,117.0,6.0,8,0,5,True,85,38,3,1,516,2641.0,9,False,False,Productivity
+    6,141.0,0.0,20,0,5,False,500,60,4,2,310,0.0,3,True,False,API
+    6,54.0,0.0,13,0,5,True,476,60,3,1,0,905.0,4,False,False,API
+    8,35.0,28.0,6,5,6,True,346,50,3,1,252,1071.0,2,True,False,Chrome Extensions
+    9,0.0,0.0,10,5,6,True,500,31,3,7,458,6810.0,3,True,False,Social Media
+    16,46.0,0.0,6,3,5,True,89,42,4,1,2725,1119.0,7,False,False,Productivity
+    10,129.0,46.0,16,1,5,True,424,52,3,1,1189,94030.0,9,False,False,Productivity
+    8,81.0,49.0,7,5,5,True,408,17,3,1,0,2203.0,4,True,False,Artificial Intelligence
+    11,0.0,45.0,12,2,5,False,192,60,3,5,203,2348.0,8,True,False,Productivity
+    1,258.0,0.0,7,0,1,True,387,27,3,1,350,2388.0,6,False,False,API
+    18,66.0,10.0,17,4,5,True,370,31,1,2,378,2893.0,12,True,False,Health & Fitness
+    12,1.0,24.0,4,5,5,False,464,53,5,1,427,2660.0,5,True,False,Customer Communication
+    1,107.0,28.0,8,3,5,True,467,59,3,1,0,3972.0,7,False,False,Developer Tools
+    1,94.0,0.0,19,6,6,True,434,50,3,1,0,2989.0,4,True,False,Health & Fitness
 1,0.0,17.0,23,3,5,True,378,55,3,0,0,154486.0,6,True,False,Comics & Graphic Novels
 2,57.0,0.0,7,2,6,True,164,52,3,3,255,0.0,5,False,False,Design Tools
 1,172.0,32.0,7,6,5,True,496,60,3,1,300,112778.0,6,True,False,Mac
