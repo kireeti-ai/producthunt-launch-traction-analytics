@@ -6,7 +6,7 @@
 
 Product Hunt is a daily launch platform where software startups, SaaS developers, and digital creators compete for community attention. While a small fraction of launches achieve breakout viral adoption (generating hundreds of upvotes and sustained user traffic), the median product receives modest engagement.
 
-Early-stage founders, product managers, and growth teams frequently spend substantial resources preparing for launch without empirical clarity on which pre-launch factors truly drive traction. This study investigates:
+Early-stage founders, product managers, and growth teams frequently spend substantial resources preparing for launch without empirical clarity on which pre-launch factors truly drive traction. This study investigates:  
 **Can we reliably predict whether a digital product launch will achieve high traction using only observable information available before or at the moment of launch?**
 
 ---
@@ -50,13 +50,14 @@ Three supervised learning classification models were implemented within scikit-l
 All models were benchmarked under **5-fold stratified cross-validation** and evaluated on an untouched **20% held-out test split** ($n = 2,000$):
 
 | Model Architecture | 5-Fold CV ROC-AUC | Test Accuracy | Test Precision | Test Recall | Test F1-Score | Test ROC-AUC | Test PR-AUC |
-|:---|:---|:---|:---|:---|:---|:---|
+|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | **Logistic Regression** | 0.8141 ± 0.0109 | 73.15% | 72.80% | 74.00% | 73.40% | 0.8102 | 0.8045 |
 | **Random Forest (150 trees)** | 0.8281 ± 0.0135 | 74.60% | 74.12% | 75.60% | 74.85% | 0.8248 | 0.8190 |
 | **XGBoost (Default)** | 0.8327 ± 0.0140 | 75.10% | 74.80% | 75.80% | 75.30% | 0.8295 | 0.8241 |
 | **XGBoost (Tuned GridSearch)** | **0.8356 ± 0.0138** | **75.45%** | **75.10%** | **76.20%** | **75.65%** | **0.8324** | **0.8270** |
 
 ### 5.2 Key Empirical Findings
+
 - **Video Demonstration Lift (+26.2% Difference):** Products with a demo video achieve a **65.1% success rate** vs **38.9%** without video ($p < 10^{-15}$), making it the single highest-impact presentation asset.
 - **Creator & Hunter Audience Reach (+22.9% Advantage):** Products in the top follower reach quartile (Q4) achieve **65.6% success** vs **42.7%** in the lowest quartile (Q1).
 - **Leaderboard Reset Timing Window (>30% Gap):** Launches timed between **00:00 and 11:00 UTC** achieve **55.8%–57.1% success**, whereas afternoon/evening launches drop to **21.3%–23.4%** due to truncated 24-hour voting exposure.
