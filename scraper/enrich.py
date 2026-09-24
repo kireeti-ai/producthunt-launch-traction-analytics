@@ -164,11 +164,11 @@ async def enrich_process(
             logger.info(f"Progress saved successfully. Enriched dataset contains {len(completed_urls)} enriched rows.")
 
 def main():
-    parser = argparse.ArgumentParser(description="Product Hunt Product Page Data Enrichment Scraper")
-    parser.add_argument("--master", default="producthunt_master.csv", help="Path to original master CSV file")
-    parser.add_argument("--enriched", default="producthunt_enriched.csv", help="Path to output enriched CSV file")
+    parser = argparse.ArgumentParser(description="Product Hunt Product Page Data Enrichment Scraper (2,000 Items Target)")
+    parser.add_argument("--master", default="data/raw/producthunt_master_2000.csv", help="Path to original master CSV file (2,000 items)")
+    parser.add_argument("--enriched", default="data/raw/producthunt_scraped_2000.csv", help="Path to output enriched CSV file (2,000 items)")
     parser.add_argument("--save-every", type=int, default=10, help="Save progress to CSV every N pages scraped")
-    parser.add_argument("--max-items", type=int, default=None, help="Max number of items to scrape in this run")
+    parser.add_argument("--max-items", type=int, default=2000, help="Max number of items to scrape in this run (default: 2000)")
     parser.add_argument("--delay-min", type=float, default=2.0, help="Minimum random delay in seconds between page requests")
     parser.add_argument("--delay-max", type=float, default=5.0, help="Maximum random delay in seconds between page requests")
     args = parser.parse_args()

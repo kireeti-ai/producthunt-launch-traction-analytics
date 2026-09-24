@@ -1,0 +1,67 @@
+{
+  "project_title": "Predicting High-Traction Product Hunt Launches",
+  "dataset_baseline": "synthetic_producthunt_10000.csv (Seed: 539 rows)",
+  "dataset_v2": "synthetic_producthunt_10000_v2.csv (Seed: Real Historical 2023-2026)",
+  "total_records_v2": 10000,
+  "target_variable_v2": "SUCCESS (votesCount >= 107.0)",
+  "cv_protocol": "5-Fold Stratified K-Fold (random_state=42)",
+  "baseline_comparison": {
+    "v1_baseline_xgb_cv_auc": 0.5738,
+    "v1_baseline_holdout_auc": 0.5598,
+    "v2_new_xgb_cv_auc": 0.847,
+    "v2_new_holdout_auc": 0.8532,
+    "v2_temporal_holdout_auc": 0.8539,
+    "performance_delta_cv_auc": 0.2732
+  },
+  "models_evaluated_v2": {
+    "Dummy_Baseline": {
+      "cv_roc_auc": 0.5,
+      "cv_accuracy": 0.5018
+    },
+    "Logistic_Regression": {
+      "cv_roc_auc_mean": 0.8343,
+      "cv_roc_auc_std": 0.011,
+      "cv_accuracy_mean": 0.7637
+    },
+    "Random_Forest": {
+      "cv_roc_auc_mean": 0.8416,
+      "cv_roc_auc_std": 0.013,
+      "cv_accuracy_mean": 0.7675
+    },
+    "HistGradientBoosting": {
+      "cv_roc_auc_mean": 0.8432,
+      "cv_roc_auc_std": 0.0141,
+      "cv_accuracy_mean": 0.7694
+    },
+    "XGBoost_Default": {
+      "cv_roc_auc_mean": 0.8443,
+      "cv_roc_auc_std": 0.0131,
+      "cv_accuracy_mean": 0.7706
+    },
+    "XGBoost_Tuned": {
+      "cv_roc_auc_mean": 0.847,
+      "holdout_roc_auc": 0.8532,
+      "holdout_pr_auc": 0.8386,
+      "holdout_accuracy": 0.7775,
+      "holdout_precision": 0.7654,
+      "holdout_recall": 0.8028,
+      "holdout_f1": 0.7837,
+      "temporal_holdout_roc_auc": 0.8539,
+      "temporal_holdout_accuracy": 0.7815,
+      "confusion_matrix": {
+        "TN": 749,
+        "FP": 247,
+        "FN": 198,
+        "TP": 806
+      },
+      "best_params": {
+        "clf__colsample_bytree": 0.8,
+        "clf__learning_rate": 0.1,
+        "clf__max_depth": 4,
+        "clf__min_child_weight": 3,
+        "clf__n_estimators": 150,
+        "clf__subsample": 0.8
+      }
+    }
+  }
+}

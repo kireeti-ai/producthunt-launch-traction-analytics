@@ -11,6 +11,8 @@ env/
 
 # Environment secrets
 .env
+.env.*
+!.env.example
 
 # Python cache and files
 __pycache__/
@@ -23,11 +25,7 @@ __pycache__/
 playwright_user_data/
 scraper.log
 
-# Raw API JSON datasets
-producthunt_data/
-
-# API-enriched datasets (ignore)
-producthunt_final_cleaned.csv
-producthunt_ml_ready.csv
 
 
+generate_report_docx.py
+Case_Study_Report.docx
