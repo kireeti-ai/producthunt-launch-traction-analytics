@@ -1,10 +1,10 @@
 # OS metadata
 .DS_Store
 
-# Jupyter checkpoints
+# Jupyter
 .ipynb_checkpoints/
 
-# Virtual environment
+# Virtual environments
 venv/
 .venv/
 env/
@@ -14,18 +14,22 @@ env/
 .env.*
 !.env.example
 
-# Python cache and files
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 .pytest_cache/
 
-# Scraper browser user data and logs
+# Scraper/browser files
+scraper/
 playwright_user_data/
 scraper.log
 
-
-
+# Generated reports / source documents
+reports/
 generate_report_docx.py
 Case_Study_Report.docx
+
+# Other generated/auxiliary scripts
+augment_with_gretel.py
